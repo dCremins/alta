@@ -23,7 +23,15 @@
     padding: 15px;
 }
 
-@media (min-width: 730px) {
+@media (min-width: 700px) {
+    .newsContainer {
+        margin-top: 140px;
+        max-width: 1000px;
+        width: 85%;
+    }
+}
+
+@media (min-width: 900px) {
     .newsContainer {
         margin-top: 140px;
         max-width: 1000px;

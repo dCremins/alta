@@ -86,6 +86,9 @@
 
     .middleMenu {
         display: none;
+        .menuIcon {
+            display: none;
+        }
     }
 
     .rightMenu {
@@ -94,7 +97,7 @@
     }
 }
 
-@media (min-width: 730px) {
+@media (min-width: 700px) {
     .menuBackground {
         position: relative;
         height: 5.75em;
@@ -135,6 +138,15 @@
     
         .right {
             background-image: url(/dividers/top_right.svg);
+        }
+    }
+}
+@media (min-width: 900px) {
+    .menuContainer {
+        .middleMenu {
+            .menuIcon {
+                display: block;
+            }
         }
     }
 }
