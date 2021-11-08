@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import { DateTime } from 'luxon'
+import Nav from '../components/nav'
+import Foot from '../components/foot'
 import styles from '../styles/ArticlePage.module.scss'
 import { getAllPostIds, getPostData, Post } from './api/apis'
 
@@ -11,6 +13,7 @@ const regex = /([^{]*){([0-9])}([^{]*)/g;
 const ArticlePage: React.FC<Props> = ({ postData }) => {
   return (
     <div className={styles.generalBackground}>
+    <Nav />
     <main className={styles.articleContainer}>
       <header className={styles.articleHeadBackground}>
         <div className={styles.avatar}>
@@ -36,6 +39,7 @@ const ArticlePage: React.FC<Props> = ({ postData }) => {
       return <p key={index}>{copy}</p>
     })}
     </main>
+      <Foot />
     </div>
   )
 }

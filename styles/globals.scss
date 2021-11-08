@@ -12,6 +12,15 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+
+  &:hover {
+      cursor: pointer;
+      color: $orange;
+
+      .menuIcon, .footIcon {
+          fill: $orange;
+      }
+  }
 }
 
 * {

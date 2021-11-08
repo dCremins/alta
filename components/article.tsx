@@ -12,14 +12,18 @@ const Article:React.FC<Props> = ({index, id, title, author, date, preview, copy}
   return (
     <Link href={`/${id}`} passHref>
         <article className={`${styles.articleContainer} ${index%2>0?styles.odd:''}`}>
-            <Image className={styles.avatar} src={`/authors/${author.toLowerCase()}.png`} alt={`${author}-author-icon`} width={128} height={128} layout="fixed" />
+          <div className={styles.avatar}>
+              <Image src={`/authors/${author.toLowerCase()}.png`} alt={`${author}-author-icon`} layout="fill" />
+          </div>
             <header className={styles.copy}>
                 <h2>{title}</h2>
                 <time>{DateTime.fromFormat(date, 'MM/dd/yyyy').toLocaleString(DateTime.DATE_FULL)}</time>
                 <div className={styles.author}>by {author}</div>
                 {copy && <p>{copy.join(' ')}</p>}
             </header>
-            <Image src={`/preview/${preview}`} alt={preview} width={240} height={136} />
+          <div className={styles.preview}>
+            <Image src={`/preview/${preview}`} alt={preview} layout="fill" />
+          </div>
         </article>
     </Link>
   )
