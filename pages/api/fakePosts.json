@@ -1,0 +1,257 @@
+{
+    "posts":[
+        {
+            "title":"ATT Released on the Quest!",
+            "author":"Victor",
+            "date":"07/16/2021",
+            "preview":"quest_ship_tale_thumbnail_1280_720.jpeg",
+            "copy": [
+                "Hello peeps, Victor here bearing good news!",
+                "A Township Tale is now available for standalone VR on the Oculus Quest Store {0}",
+                "After a long year of silence, suspense and mystery, we’ve announced that we were officially working on porting A Township Tale to the Oculus Quest back in March.",
+                "Then in June we were part of the {1}, where the release date was shared.",
+                "And just like in the blink of an eye that day is TODAY!",
+                "A Township Tale is out now on the Oculus Quest store, so you can be part of your Township on the go.",
+                "Mine mythril in the living room, forge tools in the garage or hunt spriggulls in the backyard!",
+                "See you in a Town close to you,",
+                "FOR THE TOWNSHIP!!!"
+            ],
+            "links": [
+                {
+                    "text":"HERE!", "url":"https://www.oculus.com/experiences/quest/2913958855307200/"
+                },
+                {
+                    "text":"Upload VR E3 Showcase", "url":"https://youtu.be/YKQQrMC84JE?t=3099"
+                }
+            ],
+            "video":"https://www.youtube.com/embed/ToQzmt2r2Ic"
+        },
+        {
+            "title":"Oculus Quest Launch - Post Early Access Update",
+            "author":"Boramy",
+            "date":"07/13/2021",
+            "preview":"launch_post_image_quest.jpeg",
+            "copy":[
+                "So today has been a little bumpy to say the least. We know some of you have been having issues with the game, and we’re doing our best to fix things as fast as possible for you. Alta is a very small team, and we’ve been completely swamped the last eight hours, but we are working through all of your issues as fast as we can. We wanted to make this post to let you know what’s happening, what we’re doing about it, and what you can expect over the next couple days.",
+                "So What Happened?",
+                "There were issues this morning with the Oculus store which hit multiple users. Read below for what happened, and what to expect:,",
+                "If you couldn’t buy the game - This has been fixed, the game is available for purchase again.",
+                "If you bought the game and didn’t get it - This was an issue on the Oculus store side, and isn’t something we can fix ourselves. Please contact Oculus {0} You will still be able to get your pre-order items once the purchase issue is sorted out.",
+                "You bought the game, and didn’t get your pre-order items - This has also been fixed, and any user that buys the game and launches it between now and launch on Thursday, July 15 will get the pre-order bonuses, regardless of what items are listed in your Oculus account. We are also extending the pre-order item window to post launch, to make sure everyone is covered.",
+                "You bought Talems in game, and never got them - We are currently investigating this with Oculus now. It seems to be a problem on their end. We will inform all of you as soon as we have news on this, but we will make sure every player gets the Talems they purchased.",
+                "What About Game Issues and Disconnects?",
+                "We’ve also seen some in-game issues today:",
+                "Frequent Disconnects from Server - In trying to fix the pre-order issues above, we pushed some API updates that stressed our live servers more than expected, which resulted in crashes/disconnects for some of you. We have found a less invasive way to make these updates, so this issue should stop. If you continue to see it, please let us know.",
+                "Framerate Issues on Tutorial Server - A small number of users have been hit by framerate issues on the tutorial servers, which we are looking into now. We will push a fix for this as soon as we have it.",
+                "Where We Go from Here",
+                "Our first priority are the fixes above and making sure everyone gets their game and their pre-order items. In addition to that, we’re also focusing on the following:",
+                "Ongoing Support - We want to make sure all of you are taken care of. We will continue to provide support, and the best place to contact us is in the #quest-early-access-issues channel on our Discord. We are also constantly updating the Quest Early Access FAQ {1}",
+                "Accessibility - We want to add more options for this as soon as the urgent performance/purchasing issues are addressed.",
+                "Solving Issues with Oculus - We are in constant contact with the team at Oculus, and we are working with them to get the issues on their platform sorted out.",
+                "Server/Tech Support - We are also focused on providing individual and wide scale tech/server support, and working on future updates.",
+                "We’d also like to take a moment to thank all of you for the overwhelming amount of support today. This game is so important to us, and it’s incredibly rewarding and humbling to see how many of you are already enjoying your adventures on Quest. We know some of you have had a rocky start, and we are 100% committed to making sure you get your game, your pre-order items, your Talems, and the experience you were expecting. Thank you again for your patience, and we hope everyone gets to join in on the adventure soon.",
+                "The Township Tale Team"
+            ],
+            "links": [
+                {
+                    "text":"HERE!", "url":"https://tickets.oculusvr.com/hc/en-us/requests/new/"
+                },
+                {
+                    "text":"HERE!", "url":"https://trello.com/b/Dnaxu0Mk/a-township-tale-faq-help"
+                }
+            ],
+            "image":"/images/launch_post_image_quest"
+        },
+        {
+            "title":"Pre-Order A Township Tale on Quest!",
+            "author":"Boramy",
+            "date":"06/30/2021",
+            "preview":"pre_order_thumbnail_1280_720.jpeg",
+            "copy":[
+                "Howdy, folks!",
+                "Two weeks ago we announced A Township Tale is coming on Quest! We've been asked numerous times about if the game will be available for pre-order, and needless to say it is something we indeed thought of! (It may or may not have also been leaked in some of our press releases.)",
+                "You can {0} if you'd like!",
+                "I've prepared another one of these waving of the right arm videos to describe the perks and details of what you get in the pre-order! But here is a breakdown:"
+            ],
+            "links": [
+                {
+                    "text":"PRE-ORDER HERE!", "url":"https://tickets.oculusvr.com/hc/en-us/requests/new/"
+                }
+            ],
+            "video":"https://www.youtube.com/embed/GxUVH8oXoDo"
+        },
+        {
+            "title":"ATT On Occulus Quest!",
+            "author":"Boramy",
+            "date":"06/12/2021",
+            "preview":"quest_announcement.jpeg",
+            "copy":[
+                "Hey everyone! I hope you're enjoying the new website! This marks a new dawn for us here at Alta, especially since we've just announced A Township Tale is coming to Quest!",
+                "You can already wishlist the game on the Quest store HERE!",
+                "The game is set to release JULY 15TH 2021 on the Oculus Quest Store."
+            ],
+            "video":"https://www.youtube.com/embed/Pj27RWR5KOk"
+        },
+        {
+            "title":"Blog Post!?",
+            "author":"Joel",
+            "date":"04/22/2021",
+            "preview":"sprigull_1920_1080.jpeg",
+            "copy":[
+                "Hello! While we've been focusing on development, many have commented on our blog being left untouched for quite a while. This has been in part due to our focuses elsewhere (eg. Youtube, Discord, and the game itself), but also due to some technical issues with our blog system, which we haven't found the time to resolve. In fact... I'm manually editing server files just to get this one online!",
+                "If you're keen to continue following our updates, be sure to join the {0}, until we get the blog back online. Although this blog may be quiet, A Township Tale has updates every week, alternating between game updates, and cosmetic updates.",
+                "See you around!"
+            ],
+            "links": [
+                {
+                    "text":"DISCORD", "url":"https://www.discord.gg/townshiptale"
+                }
+            ],
+            "image":"sprigull_1920_1080"
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        },
+        {
+            "title":"",
+            "author":"",
+            "date":"",
+            "preview":"",
+            "copy":"",
+            "video":"",
+            "image":""
+        }
+    ]
+}

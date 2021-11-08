@@ -1,0 +1,37 @@
+.headBackground {
+    background-image: url('/header.svg');
+    color: $pink;
+    font-family: 'AracneCondensed';
+    font-size: 1em;
+    margin-left: -13%;
+    margin-top: -15%;
+    padding: 10px;
+    text-align: center;
+    width: 125%;
+
+    h1 {
+        margin: 0;
+    }
+
+    small {
+        display: none;
+    }
+}
+
+@media (min-width: 730px) {
+    .headBackground {
+        margin-left: -60px;
+        margin-top: -90px;
+        padding: 30px 10px;
+        width: calc(100% + 120px);
+    
+        h1 {
+            font-size: 5em;
+        }
+    
+        small {
+            display: inherit;
+            font-size: 2em;
+        }
+    }
+}

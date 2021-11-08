@@ -1,0 +1,36 @@
+// Reset
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+// Fonts
+
+@font-face {
+  font-family: "AracneCondensed";
+  src: url("/fonts/AracneCondensedRegular/ARACNE-CONDENSED_regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "AracneCondensed";
+  src: url("/fonts/AracneCondensedRegular/ARACNE-CONDENSED_regular_italic.ttf");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}

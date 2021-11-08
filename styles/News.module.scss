@@ -1,0 +1,29 @@
+.newsBackground {
+    background-image: url('/bg_news.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.newsContainer {
+    color: $white;
+    flex: 1;
+    margin: 10% auto;
+    padding: 15px;
+    width: 95%;
+}
+
+.newsList {
+    background-color: $dark-brown;
+    height: 100%;
+    padding: 15px;
+}
+
+@media (min-width: 730px) {
+    .newsContainer {
+        max-width: 1000px;
+        width: 85%;
+    }
+}

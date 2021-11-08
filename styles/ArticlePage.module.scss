@@ -1,0 +1,136 @@
+.generalBackground {
+    background-image: url('/bg_generic.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.articleContainer {
+    color: $white;
+    flex: 1;
+    font-family: 'Josefin Sans';
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 15px 0px;
+    width: 100%;
+    background-color: $darker-brown;
+
+    p {
+        padding: 0 20px;
+    }
+}
+
+.articleHeadBackground {
+    align-items: center;
+    background-image: url('/header.svg');
+    color: $white;
+    display: flex;
+    font-family: 'AracneCondensed';
+    font-size: 1em;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+    width: 90%;
+
+    .avatar {
+        background-color: $beige;
+        height: 58px;
+        position: relative;
+        width: 58px;
+    }
+
+    .info {
+        flex: 1;
+        font-family: 'Josefin Sans';
+        padding: 0 20px;
+    
+        h2 {
+            font-size: 1.4em;
+            margin: 0;
+        }
+    
+        time {
+            margin: 0;
+            font-size: .8em;
+            font-weight: 300;
+        }
+    
+        .author {
+            margin: 0;
+            font-size: .8em;
+            font-weight: 300;
+        }
+    }
+}
+
+.hero {
+    margin: 10px 0;
+    min-height: 300px;
+    width: 100%;
+}
+
+.link {
+    color: $orange;
+    font-weight: 600;
+}
+
+@media (min-width: 730px) {
+    .articleContainer {
+        margin: 80px auto;
+        max-width: 900px;
+        width: 85%;
+
+        p {
+            font-size: 1.3em;
+            line-height: 1.2em;
+            padding: 0 80px;
+        }
+    }
+
+    .hero {
+        margin: 10px 10%;
+        min-height: 400px;
+        width: 80%;
+    }
+
+    .articleHeadBackground {
+        margin-left: -50px;
+        margin-top: -50px;
+        padding: 30px 60px;
+        width: calc(100% + 100px);
+
+        .avatar {
+            background-color: $beige;
+            height: 128px;
+            width: 128px;
+        }
+
+        .info {
+            flex: 1;
+            font-family: 'Josefin Sans';
+            padding: 0 20px;
+        
+            h2 {
+                font-size: 2em;
+                margin: 0.3em 0;
+            }
+        
+            time {
+                font-size: 1.5em;
+                font-weight: 300;
+                margin: 0.2em 0;
+            }
+        
+            .author {
+                font-size: 1.5em;
+                font-weight: 300;
+                margin: 0.2em 0;
+            }
+        }
+    }
+}
